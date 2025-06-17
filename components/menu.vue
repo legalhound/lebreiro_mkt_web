@@ -1,0 +1,81 @@
+<template>
+  <nav class="navbar navbar-expand-lg fixed-top p-2 bg-white">
+    <div class="container">
+      <a href="#inicio" class="navbar-brand">
+          <img class="mx-auto logo" alt="logo" src="@/assets/lebreiro-logo.png" height="40px" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link"  href="#funcionalidad-clave">Funcionalidad Clave</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#seguridad-cumplimiento">Seguridad y cumplimiento</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  href="#por-que-lester">¿Por qué elegir Lester?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#on-premises">On-premises</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#faq">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="page-2 nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</template>
+
+<script setup>
+  const router = useRouter()
+  const { currentRoute } = router
+  const borderActiveClass1 = computed(() => {
+    if ( currentRoute.value.name === 'index') {
+        return 'page-1-active';
+      } 
+    }
+  )
+  const borderActiveClass2 = computed(() => {
+    if ( currentRoute.value.name === 'quienes-somos') {
+        return 'page-2-active';
+      } 
+    }
+  )
+  const borderActiveClass3 = computed(() => {
+    if ( currentRoute.value.name === 'nuestros-clientes') {
+        return 'page-3-active';
+      } 
+    }
+  )
+  const borderActiveClass4 = computed(() => {
+    if ( currentRoute.value.name === 'contact') {
+        return 'page-4-active';
+      } 
+    }
+  )
+</script>
+
+
+<style lang="scss" scoped>
+  .logo{
+    animation: logo-up linear both;
+    animation-timeline: scroll(root);
+    animation-range: 0 400px;
+  }
+.navbar{
+  margin: 0px !important;
+  border: none !important;
+  animation: show-background linear both;
+  animation-timeline: scroll(root);
+  animation-range: 0 400px;
+
+}
+
+</style>
