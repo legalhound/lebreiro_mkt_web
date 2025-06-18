@@ -1,11 +1,8 @@
 <template>
   <div class="p-3">
     <home/>
-    <funcionality/>
-    <security/>
-    <why/>
-    <onPremises/>
-    <faq/>
+    <architecture/>   
+    <cases/>
     <contact/>
   </div>
 </template>

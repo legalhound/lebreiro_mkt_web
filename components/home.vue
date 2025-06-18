@@ -6,24 +6,26 @@
   </div>
   <div class="slide-two text-center" id="servicios">
     <div class="row">
-      <div class="col-lg-4 col-md-6 col-sm-12 ms-auto p-md-3 p-sm-1">  
-        <h2>Control absoluto</h2>
-        <p class="px-3">LesterBot es una solución tecnológica avanzada diseñada para entidades de banca privada, asesoramiento financiero y gestión patrimonial que requieren un control absoluto sobre sus comunicaciones y su trazabilidad completa conforme a las normativas más exigentes.</p>
+      <div class="col-xl-4 col-md-6 col-sm-12 ms-auto p-md-3 p-sm-1">  
+        <h2>¿Qué es Lebreiro?</h2>
+        <p class="px-2">Lebreiro es una solución RegTech avanzada que actúa como un sistema de vigilancia normativa inteligente. Está diseñada para ayudar a las empresas a gestionar de forma proactiva sus obligaciones legales, fiscales y regulatorias. A través de la monitorización automatizada de múltiples fuentes oficiales, tanto nacionales como europeas, Lebreiro identifica, clasifica y distribuye información normativa relevante en tiempo real, garantizando que los distintos departamentos de la empresa estén siempre al día de los cambios que pueden afectarles.</p>
       </div>
-      <div class="col-lg-4 col-md-6 col-sm-12 me-auto p-md-3 p-sm-1">  
-        <h2>Máxima confidencialidad</h2>
-        <p class="px-3">Desplegado íntegramente en entornos on-premise, LesterBot ofrece máxima confidencialidad, cumplimiento automatizado y soberanía tecnológica en una única herramienta integral.</p>
+      <div class="col-xl-4 col-md-6 col-sm-12 me-auto p-md-3 p-sm-1">  
+        <h2>¿Que hace?</h2>
+        <p class="px-2">La plataforma permite consultar documentos legales, añadir anotaciones, compartir contenido entre equipos y recibir alertas segmentadas según perfil o área. Todo desde un entorno seguro, centralizado y personalizable, integrable con herramientas como Teams, correo electrónico o gestores documentales.</p>
+        <p class="px-2">Lebreiro no solo informa de los cambios normativos en preparación o en vigor: permite estructurar el cumplimiento. Desde su panel de control, el usuario visualiza los cambios legislativos, su impacto y las acciones tomadas. La trazabilidad del ciclo normativo —desde la publicación hasta su implementación— ofrece un respaldo clave en inspecciones, auditorías o comités de cumplimiento.</p>
       </div> 
     </div>
     <div class="container py-5">
-      <div class="row row-cols-1 row-cols-md-3 g-4">
+      <h2 class="mb-3">Gestion colaborativa y de perfiles</h2>
+      <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-4 g-4 mt-3">
         <div class="col d-flex">
           <div class="topic-card w-100">
             <div>
-              <div class="topic-icon"><i class="fas fa-cubes"></i></div>
-              <div class="topic-title">Plataforma Modular</div>
+              <div class="topic-icon"><i class="fas fa-share-nodes"></i></div>
+              <div class="topic-title">Compartición de normativas y alertas </div>
               <div class="topic-text">
-                Es una plataforma modular para la transcripción, búsqueda y archivo de comunicaciones clave dentro de la propia entidad y de la entidad con sus clientes—cumpliendo con MiFID II, DORA, GDPR y la LVMSI.
+                Es una plataforma Lebreiro facilita la compartición de normativas y alertas, permiiendo a los usuarios colaborar de manera eficiente, ya sea dentro de la plataforma o a través correo electrónico y Microsoft Teams.
               </div>
             </div>
           </div>
@@ -31,10 +33,10 @@
         <div class="col d-flex">
           <div class="topic-card w-100">
             <div>
-              <div class="topic-icon"><i class="fas fa-network-wired"></i></div>
-              <div class="topic-title">Arquitectura Local</div>
+              <div class="topic-icon"><i class="fas fa-note-sticky"></i></div>
+              <div class="topic-title">Notas personalizadas en documentos</div>
               <div class="topic-text">
-                A través de una arquitectura local, permite a la entidad registrar conversaciones telefónicas, por correo electrónico y por correo web, e indexarlas, conservarlas y recuperarlas para aportarlas   con precisión y rapidez a auditorías e inspecciones, utilizarlas como pruebas en procedimientos judiciales. La entidad ve reforzada su política de cumplimiento sin ceder el control externo de sus datos.
+                Los usuarios pueden añadir notas personalizadas a documento y alertas lo que permite una mayor personalización y adaptación a las neccesitades específicas de cada área o proyecto.
               </div>
             </div>
           </div>
@@ -42,10 +44,21 @@
         <div class="col d-flex">
           <div class="topic-card w-100">
             <div>
-              <div class="topic-icon"><i class="fas fa-puzzle-piece"></i></div>
-              <div class="topic-title">Diseño Adaptable</div>
+              <div class="topic-icon"><i class="fas fa-users-gear"></i></div>
+              <div class="topic-title">Creación de grupos por área y departamento</div>
               <div class="topic-text">
-                Su diseño adaptable permite integraciones personalizadas a los flujos documentales y reglas internas de la entidad, y su ajuste para los distintos tipos de clientes propios de los servicios de banca privada.
+                Desde el perfil de administrador, se pueden crear grupos áreas y departamiento, facilitando la distribución de automática de información pertinente a los miembros de cada grupo.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex">
+          <div class="topic-card w-100">
+            <div>
+              <div class="topic-icon"><i class="fas fa-clipboard-check"></i></div>
+              <div class="topic-title">Trazabilidad de acciones y lecturas</div>
+              <div class="topic-text">
+                Lebreiro asegura la trazabilidad de lectura, las acciones tomadas y los usuarios implicados, permitiendo un seguimiento claro y efectivo de la gestion normativa.
               </div>
             </div>
           </div>
@@ -58,19 +71,19 @@
 </script>
 <style scoped>
   .slide-one{
-    padding-top: 100px;
+    background-image: url('@/assets/portada.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0px;
       p{
         margin-bottom: 1em;
         margin-inline: auto;
         font-size: 1.2em;
         max-width: 700px;
     }
-    .portada{
-      opacity: 0.9;
-    }
   }
 .slide-two{
-  padding-top: 50px;
+  padding-top: 20px;
   p{
     font-size: 1em;
   }  
@@ -103,7 +116,7 @@
 .topic-icon {
   font-size: 30px;
   margin-bottom: 15px;
-  color:#398fa8;
+  color:#000;
 }
 .topic-title {
   font-size: 18px;

@@ -1,6 +1,6 @@
 <template>
   <div class="slide-three" id="funcionalidad-clave">
-    <h2>Funcionalidad Clave</h2>
+    <h2>Casos de uso destacados</h2>
     <div class="row row-cols-1 row-cols-lg-4 row-cols-xl-5  g-4">
       <div class="col">
         <div class="card h-100 position-relative">

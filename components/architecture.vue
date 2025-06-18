@@ -1,8 +1,7 @@
 <template>
   <div class="slide-six text-center" > 
-    <h2 class="title" id="on-premises">On-premises</h2>
+    <h2 class="title" id="on-premises">Arquitectura y tecnología</h2>
     <div class="container">
-    <p> LesterBot se instala íntegramente en servidores o dispositivos locales del cliente. Este enfoque garantiza que los datos nunca abandonan la red interna de la entidad, eliminando así riesgos asociados a la nube pública como fugas de información, accesos indebidos o dependencia de terceros.</p>
       <div class="row g-4">
         <div class="col-md-6 col-lg-4">
           <div class="p-4 fact-card h-100">
@@ -28,24 +27,6 @@
             <h5 class="fact-header">Control absoluto</h5>
             <p class="fact-text">
               El cliente decide cuándo se actualiza el sistema, qué se monitoriza y cómo se configura.
-            </p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-6">
-          <div class="p-4 fact-card h-100">
-            <div class="fact-icon mb-3"><i class="fas fa-scale-balanced"/></div>
-            <h5 class="fact-header">Aislamiento normativo</h5>
-            <p class="fact-text">
-              Ideal para entornos sometidos a auditoría legal, fiscal, penal o supervisión externa.
-            </p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-6">
-          <div class="p-4 fact-card h-100">
-            <div class="fact-icon mb-3"><i class="fas fa-plug-circle-bolt"/></div>
-            <h5 class="fact-header">Independencia operativa</h5>
-            <p class="fact-text">
-              Incluso sin acceso a Internet, LesterBot sigue funcionando de forma autónoma.
             </p>
           </div>
         </div>
