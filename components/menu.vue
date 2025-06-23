@@ -10,22 +10,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link"  href="#funcionalidad-clave">Funcionalidad Clave</a>
+            <a class="nav-link"  href="#magnament">Gestión colaborativa</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#seguridad-cumplimiento">Seguridad y cumplimiento</a>
+            <a class="nav-link" href="#architecture">Aquitectura y tecnología</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link"  href="#por-que-lester">¿Por qué elegir Lester?</a>
+            <a class="nav-link"  href="#cases">Casos de uso</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#on-premises">On-premises</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#faq">FAQ</a>
-          </li>
-          <li class="nav-item">
-            <a class="page-2 nav-link" href="#contacto">Contacto</a>
+            <a class="page-2 nav-link" href="#contact">Contacto</a>
           </li>
         </ul>
       </div>

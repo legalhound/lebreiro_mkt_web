@@ -1,32 +1,32 @@
 <template>
   <div class="slide-six text-center" > 
-    <h2 class="title" id="on-premises">Arquitectura y tecnología</h2>
+    <h2 class="title" id="architecture">Arquitectura y tecnología</h2>
     <div class="container">
       <div class="row g-4">
         <div class="col-md-6 col-lg-4">
           <div class="p-4 fact-card h-100">
+            <div class="fact-icon mb-3"><i class="fas fa-cubes"/></div>
+            <h5 class="fact-header">Modularidad y escabilidad</h5>
+            <p class="fact-text">
+              La modularidad de la plataforma permite adaptarse a las necesidades específicas de cada empresa, ya sea pequeña o grande.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="p-4 fact-card h-100">
+            <div class="fact-icon mb-3"><i class="fas fa-plug"/></div>
+            <h5 class="fact-header">Integración a travé de APIs</h5>
+            <p class="fact-text">
+              Las APIs facilitan la conexión con diversas herramientas como CRMs y ERPs, optimizando flujos de trabajo y aumentando la eficiencia.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="p-4 fact-card h-100">
             <div class="fact-icon mb-3"><i class="fas fa-shield-halved"/></div>
-            <h5 class="fact-header">Seguridad máxima</h5>
+            <h5 class="fact-header">Seguridad en el acceso</h5>
             <p class="fact-text">
-              No hay terceros con acceso, ni siquiera el fabricante del software.
-            </p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="p-4 fact-card h-100">
-            <div class="fact-icon mb-3"><i class="fas fa-file-shield"/></div>
-            <h5 class="fact-header">Cumplimiento reforzado</h5>
-            <p class="fact-text">
-              Se alinea con los principios de privacidad por diseño y por defecto del RGPD.
-            </p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="p-4 fact-card h-100">
-            <div class="fact-icon mb-3"><i class="fas fa-sliders"/></div>
-            <h5 class="fact-header">Control absoluto</h5>
-            <p class="fact-text">
-              El cliente decide cuándo se actualiza el sistema, qué se monitoriza y cómo se configura.
+              El acceso seguro con autenticación multifactor garantiza que solo usuarios autorizados puedan acceder a la información sensible.
             </p>
           </div>
         </div>
@@ -39,7 +39,7 @@
   background-color: #e5e5e5; 
   padding-bottom: 100px;
   .title{
-    padding-top: 70px;
+    padding-top: 100px;
   }
   .fact-card {
     background-color: white;

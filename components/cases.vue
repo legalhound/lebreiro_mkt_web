@@ -1,94 +1,58 @@
 <template>
-  <div class="slide-three" id="funcionalidad-clave">
+  <div class="slide-three" id="cases">
     <h2>Casos de uso destacados</h2>
-    <div class="row row-cols-1 row-cols-lg-4 row-cols-xl-5  g-4">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3  g-4">
       <div class="col">
         <div class="card h-100 position-relative">
-          <i class="fas fa-microphone fa-3x icon-position"></i>
+          <i class="fas fa-university fa-3x icon-position"></i>
           <div class="card-body text-center">
-            <h5 class="card-title">Transcripción automática</h5>
-            <p class="card-text">Transcripción automática multilingüe de llamadas telefónicas a texto. </p>
+            <h5 class="card-title">Sector bancario y financiero</h5>
+            <p class="card-text">Monitorización de normativa publicada en el BOE y DOUE, incluyendo directrices de supervisores como la CNMV y Banco de España. </p>
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card h-100 position-relative">
-          <i class="fas fa-list fa-3x icon-position"></i>
+          <i class="fas fa-vial fa-3x icon-position"></i>
           <div class="card-body text-center">
-            <h5 class="card-title">Indexación de comunicaciones</h5>
-            <p class="card-text">Indexación de correos electrónicos, Teams, WhatsApp y más. Directorio inteligente de contactos y detección de llamadas externas.</p>
+            <h5 class="card-title">Industria farmaceútica</h5>
+            <p class="card-text">Seguimiento normativo sobre ensayos clínicos y aspectos fiscales relacionados con la investigación y el desarrollo.</p>
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card h-100 position-relative">
-          <i class="fas fa-search fa-3x icon-position"></i>
+          <i class="fas fa-scale-balanced fa-3x icon-position"></i>
           <div class="card-body text-center">
-            <h5 class="card-title">Búsqueda semántica</h5>
-            <p class="card-text">Búsqueda semántica basada en IA: por intención, no solo por palabra. Interfaz para consulta rápida en inspecciones y comités internos.</p>
+            <h5 class="card-title">Despachos legales y consultoras</h5>
+            <p class="card-text">Uso de un radar jurídico para alertar sobre cambios en normativa y jurisprudencia, mejorando la anticipación y fidelización de clientes.</p>
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card h-100 position-relative">
-          <i class="fas fa-hdd fa-3x icon-position"></i>
+          <i class="fas fa-car fa-3x icon-position"></i>
           <div class="card-body text-center">
-            <h5 class="card-title">Copias de seguridad</h5>
-            <p class="card-text">Copias de seguridad automáticas bajo control total del cliente garantizando la máxima seguridad de los datos.</p>
+            <h5 class="card-title">Sector automoción</h5>
+            <p class="card-text">Control de normativa relacionada con ayudas y control de flotas, asegurando el cumplimiento en diferentes departamentos.</p>
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card h-100 position-relative">
-          <i class="fas fa-bell fa-3x icon-position"></i>
+          <i class="fas fa-microchip fa-3x icon-position"></i>
           <div class="card-body text-center">
-            <h5 class="card-title">Alertas configurables</h5>
-            <p class="card-text">Alertas configurables por riesgo, producto o término regulado que facilitan la supervisión normativa en tiempo real.</p>
+            <h5 class="card-title">Empresas tecnológicas y de ciberseguridad</h5>
+            <p class="card-text">Rastreo y cambio en RDPD y AI Act, enviando alertas específicas a departamentos como DPO y IT.</p>
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card h-100 position-relative">
-          <i class="fas fa-calendar-alt fa-3x icon-position"></i>
+          <i class="fas fa-globe fa-3x icon-position"></i>
           <div class="card-body text-center">
-            <h5 class="card-title">Agrupación cronológica</h5>
-            <p class="card-text">Agrupación cronológica por expediente (cliente, asesor, canal). Adaptabilidad al lenguaje y operativa propia de la entidad.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100 position-relative">
-          <i class="fas fa-file-export fa-3x icon-position"></i>
-          <div class="card-body text-center">
-            <h5 class="card-title">Exportación en formatos compatibles</h5>
-            <p class="card-text">Genera un expediente STOR compatible con CNMV.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100 position-relative">
-          <i class="fas  fa-address-book fa-3x icon-position"></i>
-          <div class="card-body text-center">
-            <h5 class="card-title">Directorio inteligente</h5>
-            <p class="card-text">Directorio inteligente de contactos y detección de llamadas externas.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100 position-relative">
-          <i class="fas fa-display fa-3x icon-position"></i>
-          <div class="card-body text-center">
-            <h5 class="card-title">Interfaz</h5>
-            <p class="card-text">Interfaz para consulta rápida en inspecciones y comités internos.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col">
-        <div class="card h-100 position-relative">
-          <i class="fas fa-cogs fa-3x icon-position"></i>
-          <div class="card-body text-center">
-            <h5 class="card-title">Adaptabilidad</h5>
-            <p class="card-text">Adaptabilidad al lenguaje y operativa propia de la entidad.</p>
+            <h5 class="card-title">Grupos internacionales</h5>
+            <p class="card-text">Recepción de alertas segmentadas por país, adaptándose a normativas locales y fiscales internacionales.</p>
           </div>
         </div>
       </div>

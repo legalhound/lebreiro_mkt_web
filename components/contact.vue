@@ -1,5 +1,5 @@
 <template>
-<div class="slide-eight text-center" id="contacto">
+<div class="slide-eight text-center" id="contact">
   <h2>Contacta con nosotros</h2>
     <p>Solicita una demo o resuleve cualquier duda que tengas. Nos pondremos en contacto contigo.</p>
     <div class="row background-blue">
@@ -158,16 +158,16 @@ textarea{
   background-color:#398fa8 !important;
 }
 .btn-primary{
-background-color: #65cce3!important;
+background-color: #65cce386!important;
   color: white;
   border: none !important;
   transition: all 0.3s ease;
   box-shadow:
-    0 10px 15px rgba(0, 0, 0, 0.3),   /* sombra principal hacia abajo */
-    0 4px 6px rgba(0, 0, 0, 0.2);     /* sombra secundaria más difusa */
+    0 10px 15px rgba(2, 101, 129, 0.823),   /* sombra principal hacia abajo */
+    0 4px 6px rgba(2, 101, 129, 0.823);     /* sombra secundaria más difusa */
 }
 .btn-primary:hover {
-  background-color:#7080b2d4  !important;
+  background-color:#65cce34a  !important;
   transform: translateY(-3px);
 }
 </style>
