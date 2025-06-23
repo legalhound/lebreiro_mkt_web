@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg fixed-top p-2 bg-white">
+  <nav class="navbar navbar-expand-lg fixed-top bg-white">
     <div class="container">
       <a href="#inicio" class="navbar-brand">
           <img class="mx-auto logo" alt="logo" src="@/assets/lebreiro-logo.png" height="40px" />
@@ -18,11 +18,12 @@
           <li class="nav-item">
             <a class="nav-link"  href="#cases">Casos de uso</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item me-3">
             <a class="page-2 nav-link" href="#contact">Contacto</a>
           </li>
         </ul>
       </div>
+      <button class="btn btn-secondary  ms-3"><a  href="https://app.lebreiro.com/login">Inciar sesión</a></button>
     </div>
   </nav>
 </template>
@@ -66,10 +67,28 @@
 .navbar{
   margin: 0px !important;
   border: none !important;
+  padding: 10px 30px;
   animation: show-background linear both;
   animation-timeline: scroll(root);
   animation-range: 0 400px;
 
+}
+.btn-secondary {
+  background-color: #65cce3;
+  border-color: #65cce3;
+
+  a {
+    color: #4B4B4B !important;
+    text-decoration: none;
+  }
+
+  &:hover {
+    background-color: #4eb9d4; // tono un poco más oscuro
+    border-color: #4eb9d4;
+    transition: background-color 0.2s ease;
+  }
+
+  transition: background-color 0.2s ease;
 }
 
 </style>
