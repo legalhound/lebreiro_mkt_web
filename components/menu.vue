@@ -23,7 +23,7 @@
           </li>
         </ul>
       </div>
-      <button class="btn btn-secondary  ms-3"><a  href="https://app.lebreiro.com/login">Inciar sesión</a></button>
+      <button class="btn btn-secondary  ms-3"><a  href="https://app.lebreiro.com/">Iniciar sesión</a></button>
     </div>
   </nav>
 </template>
