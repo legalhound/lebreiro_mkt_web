@@ -1,7 +1,7 @@
 <template>
   <div class="slide-one text-center" id="inicio">
     <img class="mx-auto mb-3" alt="logo" src="@/assets/lebreiro-logo.png" height="150px" />
-    <h1>Plataforma RegTech de vigiancia normativa</h1>
+    <h1>Plataforma RegTech de vigilancia normativa</h1>
     <p>Solucion integral para la gestión proactiva de obligaciones legales y regulatorias.</p>
   </div>
   <div class="slide-two text-center">
