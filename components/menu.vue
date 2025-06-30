@@ -22,8 +22,8 @@
             <a class="page-2 nav-link" href="#contact">Contacto</a>
           </li>
         </ul>
+        <button class="btn btn-secondary ms-lg-3"><a  href="https://app.lebreiro.com/">Iniciar sesión</a></button>
       </div>
-      <button class="btn btn-secondary  ms-3"><a  href="https://app.lebreiro.com/">Iniciar sesión</a></button>
     </div>
   </nav>
 </template>

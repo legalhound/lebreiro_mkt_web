@@ -8,18 +8,18 @@
             <div class="col-12">
               <div class="form mx-auto mt-3 pb-0">
                 <div class="row">
-                  <div class="col-6 text-start">
+                  <div class="col-md-6 text-start">
                     <input type="text" 
                       v-model="form.name"
-                      class="form-control w-100"
+                      class="form-control w-100 mt-2"
                       placeholder="Nombre*"
                       required
                       />
                   </div>
-                  <div class="col-6 text-end">
+                  <div class="col-md-6 text-end">
                     <input type="text" 
                       v-model="form.firstName"
-                      class="form-control w-100" 
+                      class="form-control w-100 mt-2" 
                       placeholder="Apellidos*" 
                       required
                     />        
@@ -32,14 +32,14 @@
                       required
                     />        
                   </div>
-                  <div class="col-6 text-start">
+                  <div class="col-md-6 text-start">
                     <input type="text" 
                       v-model="form.position"
                       class="form-control w-100 mt-2"
                       placeholder="Cargo" 
                       />
                   </div>
-                  <div class="col-6 text-end">
+                  <div class="col-md-6 text-end">
                     <input type="text" 
                       v-model="form.company"
                       class="form-control w-100 mt-2" 
@@ -47,14 +47,14 @@
                       required
                     />        
                   </div>
-                  <div class="col-6 text-end">
+                  <div class="col-md-6 text-end">
                     <input type="text" 
                       v-model="form.phone"
                       class="form-control w-100 mt-2" 
                       placeholder="Teléfono" 
                     />     
                   </div>   
-                  <div class="col-6 text-start">
+                  <div class="col-md-6 text-start">
                     <input type="text" 
                       v-model="form.location"
                       class="form-control w-100 mt-2"

@@ -1,6 +1,6 @@
 <template>
   <div class="slide-one text-center" id="inicio">
-    <img class="mx-auto mb-3" alt="logo" src="@/assets/lebreiro-logo.png" height="150px" />
+    <img class="mx-auto mb-3 logo" alt="logo" src="@/assets/lebreiro-logo.png"  />
     <h1>Plataforma RegTech de vigilancia normativa</h1>
     <p>Solucion integral para la gestión proactiva de obligaciones legales y regulatorias.</p>
   </div>
@@ -21,6 +21,10 @@
 <script setup>
 </script>
 <style scoped>
+  .logo{
+    max-width: 100%;
+    max-height: 150px;
+  }
   .slide-one{
     background-image: url('@/assets/portada.jpg');
     background-size: cover;
