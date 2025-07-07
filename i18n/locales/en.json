@@ -1,0 +1,108 @@
+{
+  "menu": {
+    "management": "Collaborative management",
+    "architecture": "Architecture and technology",
+    "cases": "Use cases",
+    "contact": "Contact",
+    "login": "Log in"
+  },
+  "intro": {
+    "logoAlt": "logo",
+    "title": "RegTech platform for regulatory monitoring",
+    "subtitle": "Comprehensive solution for proactive management of legal and regulatory obligations.",
+    "section1": {
+      "title": "What is Lebreiro?",
+      "text": "Lebreiro is an advanced RegTech solution that acts as an intelligent regulatory monitoring system. It is designed to help companies proactively manage their legal, tax, and regulatory obligations. Through automated monitoring of multiple official sources, both national and European, Lebreiro identifies, classifies, and distributes relevant regulatory information in real time, ensuring that the different departments of the company are always up to date on changes that may affect them."
+    },
+    "section2": {
+      "title": "What does it do?",
+      "paragraph1": "The platform allows consulting legal documents, adding annotations, sharing content between teams, and receiving segmented alerts according to profile or area. All from a secure, centralized, and customizable environment, integrable with tools like Teams, email, or document managers.",
+      "paragraph2": "Lebreiro not only informs about regulatory changes in preparation or in force: it allows structuring compliance. From its dashboard, the user visualizes legislative changes, their impact, and actions taken. The traceability of the regulatory cycle—from publication to implementation—provides key support in inspections, audits, or compliance committees."
+    }
+  },
+  "magnament": {
+    "title": "Collaborative management and profiles",
+    "items": [
+      {
+        "title": "Sharing regulations and alerts",
+        "text": "Lebreiro facilitates sharing regulations and alerts, allowing users to collaborate efficiently, either within the platform or via email and Microsoft Teams."
+      },
+      {
+        "title": "Personalized notes on documents",
+        "text": "Users can add personalized notes to documents and alerts, allowing greater customization and adaptation to the specific needs of each area or project."
+      },
+      {
+        "title": "Creation of groups by area and department",
+        "text": "From the administrator profile, groups can be created by areas and departments, facilitating the automatic distribution of relevant information to members of each group."
+      },
+      {
+        "title": "Traceability of actions and readings",
+        "text": "Lebreiro ensures traceability of reading, actions taken, and users involved, allowing clear and effective monitoring of regulatory management."
+      }
+    ]
+  },
+  "architecture": {
+    "title": "Architecture and technology",
+    "items": {
+      "modularity": {
+        "title": "Modularity and scalability",
+        "text": "The modularity of the platform allows it to adapt to the specific needs of each company, whether small or large."
+      },
+      "integration": {
+        "title": "Integration through APIs",
+        "text": "APIs facilitate connection with various tools such as CRMs and ERPs, optimizing workflows and increasing efficiency."
+      },
+      "security": {
+        "title": "Secure access",
+        "text": "Secure access with multi-factor authentication ensures that only authorized users can access sensitive information."
+      }
+    }
+  },
+  "cases": {
+    "title": "Featured use cases",
+    "items": {
+      "banking": {
+        "title": "Banking and financial sector",
+        "text": "Monitoring regulations published in the BOE and DOUE, including guidelines from supervisors such as the CNMV and Bank of Spain."
+      },
+      "pharma": {
+        "title": "Pharmaceutical industry",
+        "text": "Regulatory monitoring on clinical trials and tax aspects related to research and development."
+      },
+      "legal": {
+        "title": "Law firms and consultancies",
+        "text": "Use of a legal radar to alert on changes in regulations and case law, improving anticipation and client loyalty."
+      },
+      "automotive": {
+        "title": "Automotive sector",
+        "text": "Control of regulations related to subsidies and fleet management, ensuring compliance across departments."
+      },
+      "tech": {
+        "title": "Technology and cybersecurity companies",
+        "text": "Tracking changes in GDPR and AI Act, sending specific alerts to departments like DPO and IT."
+      },
+      "international": {
+        "title": "International groups",
+        "text": "Receiving alerts segmented by country, adapting to local and international tax regulations."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact us",
+    "description": "Request a demo or resolve any questions you have. We will get in touch with you.",
+    "form": {
+      "name": "First Name*",
+      "firstName": "Last Name*",
+      "email": "Email*",
+      "position": "Position",
+      "company": "Company*",
+      "phone": "Phone",
+      "location": "Location",
+      "comments": "Comments",
+      "submit": "Send us your details",
+      "privacyNote": "*By sending this data you accept our privacy policy"
+    },
+    "send": "Message sent",
+    "error": "Error sending the message"
+  }
+}

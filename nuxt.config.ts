@@ -15,7 +15,15 @@ export default defineNuxtConfig({
         },
       },
     },
-  ], 'nuxt-mail', 'usebootstrap'],
+  ], 'nuxt-mail', 'usebootstrap', '@nuxtjs/i18n'],
+  i18n: {
+    defaultLocale: 'es',
+    locales: [  
+      { code: 'es', name: 'Español', file: 'es.json' },
+      { code: 'en', name: 'English', file: 'en.json' }
+    
+    ]
+  },
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
   css: ['bootstrap/dist/css/bootstrap.min.css', '@/assets/styles.scss'],

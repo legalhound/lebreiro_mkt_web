@@ -1,49 +1,16 @@
 <template>
   <div class="magnament" id="magnament">
-    <div class="container" >
-      <h2 class="mb-3">Gestion colaborativa y de perfiles</h2>
+    <div class="container">
+      <h2 class="mb-3">{{ $t('magnament.title') }}</h2>
       <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-4 g-4 mt-3">
-        <div class="col d-flex">
+        <div v-for="(item, index) in items" :key="index" class="col d-flex">
           <div class="topic-card w-100">
             <div>
-              <div class="topic-icon"><i class="fas fa-share-nodes"></i></div>
-              <div class="topic-title">Compartición de normativas y alertas </div>
-              <div class="topic-text">
-                Es una plataforma Lebreiro facilita la compartición de normativas y alertas, permiiendo a los usuarios colaborar de manera eficiente, ya sea dentro de la plataforma o a través correo electrónico y Microsoft Teams.
+              <div class="topic-icon">
+                <i :class="item.icon"></i>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="col d-flex">
-          <div class="topic-card w-100">
-            <div>
-              <div class="topic-icon"><i class="fas fa-note-sticky"></i></div>
-              <div class="topic-title">Notas personalizadas en documentos</div>
-              <div class="topic-text">
-                Los usuarios pueden añadir notas personalizadas a documento y alertas lo que permite una mayor personalización y adaptación a las neccesitades específicas de cada área o proyecto.
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col d-flex">
-          <div class="topic-card w-100">
-            <div>
-              <div class="topic-icon"><i class="fas fa-users-gear"></i></div>
-              <div class="topic-title">Creación de grupos por área y departamento</div>
-              <div class="topic-text">
-                Desde el perfil de administrador, se pueden crear grupos áreas y departamiento, facilitando la distribución de automática de información pertinente a los miembros de cada grupo.
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col d-flex">
-          <div class="topic-card w-100">
-            <div>
-              <div class="topic-icon"><i class="fas fa-clipboard-check"></i></div>
-              <div class="topic-title">Trazabilidad de acciones y lecturas</div>
-              <div class="topic-text">
-                Lebreiro asegura la trazabilidad de lectura, las acciones tomadas y los usuarios implicados, permitiendo un seguimiento claro y efectivo de la gestion normativa.
-              </div>
+              <div class="topic-title">{{ item.title }}</div>
+              <div class="topic-text">{{ item.text }}</div>
             </div>
           </div>
         </div>
@@ -51,6 +18,33 @@
     </div>
   </div>
 </template>
+<script setup>
+
+const { t } = useI18n()
+
+const items = [
+  {
+    icon: 'fas fa-share-nodes',
+    title: t('magnament.items[0].title'),
+    text: t('magnament.items[0].text')
+  },
+  {
+    icon: 'fas fa-note-sticky',
+    title: t('magnament.items[1].title'),
+    text: t('magnament.items[1].text')
+  },
+  {
+    icon: 'fas fa-users-gear',
+    title: t('magnament.items[2].title'),
+    text: t('magnament.items[2].text')
+  },
+  {
+    icon: 'fas fa-clipboard-check',
+    title: t('magnament.items[3].title'),
+    text: t('magnament.items[3].text')
+  }
+]
+</script>
 <style scoped>
 .magnament{
   padding: 100px 30px !important;

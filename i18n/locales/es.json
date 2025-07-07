@@ -1,0 +1,108 @@
+{
+  "menu": {
+    "management": "Gestión colaborativa",
+    "architecture": "Arquitectura y tecnología",
+    "cases": "Casos de uso",
+    "contact": "Contacto",
+    "login": "Iniciar sesión"
+  },
+  "intro": {
+    "logoAlt": "logo",
+    "title": "Plataforma RegTech de vigilancia normativa",
+    "subtitle": "Solución integral para la gestión proactiva de obligaciones legales y regulatorias.",
+    "section1": {
+      "title": "¿Qué es Lebreiro?",
+      "text": "Lebreiro es una solución RegTech avanzada que actúa como un sistema de vigilancia normativa inteligente. Está diseñada para ayudar a las empresas a gestionar de forma proactiva sus obligaciones legales, fiscales y regulatorias. A través de la monitorización automatizada de múltiples fuentes oficiales, tanto nacionales como europeas, Lebreiro identifica, clasifica y distribuye información normativa relevante en tiempo real, garantizando que los distintos departamentos de la empresa estén siempre al día de los cambios que pueden afectarles."
+    },
+    "section2": {
+      "title": "¿Qué hace?",
+      "paragraph1": "La plataforma permite consultar documentos legales, añadir anotaciones, compartir contenido entre equipos y recibir alertas segmentadas según perfil o área. Todo desde un entorno seguro, centralizado y personalizable, integrable con herramientas como Teams, correo electrónico o gestores documentales.",
+      "paragraph2": "Lebreiro no solo informa de los cambios normativos en preparación o en vigor: permite estructurar el cumplimiento. Desde su panel de control, el usuario visualiza los cambios legislativos, su impacto y las acciones tomadas. La trazabilidad del ciclo normativo —desde la publicación hasta su implementación— ofrece un respaldo clave en inspecciones, auditorías o comités de cumplimiento."
+    }
+  },
+  "magnament": {
+    "title": "Gestión colaborativa y de perfiles",
+    "items": [
+      {
+        "title": "Compartición de normativas y alertas",
+        "text": "Lebreiro facilita la compartición de normativas y alertas, permitiendo a los usuarios colaborar de manera eficiente, ya sea dentro de la plataforma o a través de correo electrónico y Microsoft Teams."
+      },
+      {
+        "title": "Notas personalizadas en documentos",
+        "text": "Los usuarios pueden añadir notas personalizadas a documentos y alertas, lo que permite una mayor personalización y adaptación a las necesidades específicas de cada área o proyecto."
+      },
+      {
+        "title": "Creación de grupos por área y departamento",
+        "text": "Desde el perfil de administrador se pueden crear grupos por áreas y departamentos, facilitando la distribución automática de información pertinente a los miembros de cada grupo."
+      },
+      {
+        "title": "Trazabilidad de acciones y lecturas",
+        "text": "Lebreiro asegura la trazabilidad de lectura, las acciones tomadas y los usuarios implicados, permitiendo un seguimiento claro y efectivo de la gestión normativa."
+      }
+    ]
+  },
+  "architecture": {
+    "title": "Arquitectura y tecnología",
+    "items": {
+      "modularity": {
+        "title": "Modularidad y escalabilidad",
+        "text": "La modularidad de la plataforma permite adaptarse a las necesidades específicas de cada empresa, ya sea pequeña o grande."
+      },
+      "integration": {
+        "title": "Integración a través de APIs",
+        "text": "Las APIs facilitan la conexión con diversas herramientas como CRMs y ERPs, optimizando flujos de trabajo y aumentando la eficiencia."
+      },
+      "security": {
+        "title": "Seguridad en el acceso",
+        "text": "El acceso seguro con autenticación multifactor garantiza que solo usuarios autorizados puedan acceder a la información sensible."
+      }
+    }
+  },
+  "cases": {
+    "title": "Casos de uso destacados",
+    "items": {
+      "banking": {
+        "title": "Sector bancario y financiero",
+        "text": "Monitorización de normativa publicada en el BOE y DOUE, incluyendo directrices de supervisores como la CNMV y Banco de España."
+      },
+      "pharma": {
+        "title": "Industria farmaceútica",
+        "text": "Seguimiento normativo sobre ensayos clínicos y aspectos fiscales relacionados con la investigación y el desarrollo."
+      },
+      "legal": {
+        "title": "Despachos legales y consultoras",
+        "text": "Uso de un radar jurídico para alertar sobre cambios en normativa y jurisprudencia, mejorando la anticipación y fidelización de clientes."
+      },
+      "automotive": {
+        "title": "Sector automoción",
+        "text": "Control de normativa relacionada con ayudas y control de flotas, asegurando el cumplimiento en diferentes departamentos."
+      },
+      "tech": {
+        "title": "Empresas tecnológicas y de ciberseguridad",
+        "text": "Rastreo y cambio en RDPD y AI Act, enviando alertas específicas a departamentos como DPO y IT."
+      },
+      "international": {
+        "title": "Grupos internacionales",
+        "text": "Recepción de alertas segmentadas por país, adaptándose a normativas locales y fiscales internacionales."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contacta con nosotros",
+    "description": "Solicita una demo o resuleve cualquier duda que tengas. Nos pondremos en contacto contigo.",
+    "form": {
+      "name": "Nombre*",
+      "firstName": "Apellidos*",
+      "email": "Email*",
+      "position": "Cargo",
+      "company": "Empresa*",
+      "phone": "Teléfono",
+      "location": "Localización",
+      "comments": "Comentarios",
+      "submit": "Envíanos tus datos",
+      "privacyNote": "*Enviando estos datos aceptas nuestra política de privacidad"
+    },
+    "send": "Mensaje Enviado",
+    "error": "Error al enviar el mensaje"
+  }
+}

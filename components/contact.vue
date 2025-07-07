@@ -1,93 +1,101 @@
 <template>
-<div class="slide-eight text-center" id="contact">
-  <h2>Contacta con nosotros</h2>
-    <p>Solicita una demo o resuleve cualquier duda que tengas. Nos pondremos en contacto contigo.</p>
+  <div class="slide-eight text-center" id="contact">
+    <h2>{{ $t('contact.title') }}</h2>
+    <p>{{ $t('contact.description') }}</p>
     <div class="row background-blue">
       <form @submit.prevent="sendMail">
-          <div class="row">
-            <div class="col-12">
-              <div class="form mx-auto mt-3 pb-0">
-                <div class="row">
-                  <div class="col-md-6 text-start">
-                    <input type="text" 
-                      v-model="form.name"
-                      class="form-control w-100 mt-2"
-                      placeholder="Nombre*"
-                      required
-                      />
-                  </div>
-                  <div class="col-md-6 text-end">
-                    <input type="text" 
-                      v-model="form.firstName"
-                      class="form-control w-100 mt-2" 
-                      placeholder="Apellidos*" 
-                      required
-                    />        
-                  </div>
-                  <div class="col-12">
-                    <input type="text" 
-                      v-model="form.email"
-                      class="form-control w-100 mt-2"
-                      placeholder="Email*" 
-                      required
-                    />        
-                  </div>
-                  <div class="col-md-6 text-start">
-                    <input type="text" 
-                      v-model="form.position"
-                      class="form-control w-100 mt-2"
-                      placeholder="Cargo" 
-                      />
-                  </div>
-                  <div class="col-md-6 text-end">
-                    <input type="text" 
-                      v-model="form.company"
-                      class="form-control w-100 mt-2" 
-                      placeholder="Empresa*" 
-                      required
-                    />        
-                  </div>
-                  <div class="col-md-6 text-end">
-                    <input type="text" 
-                      v-model="form.phone"
-                      class="form-control w-100 mt-2" 
-                      placeholder="Teléfono" 
-                    />     
-                  </div>   
-                  <div class="col-md-6 text-start">
-                    <input type="text" 
-                      v-model="form.location"
-                      class="form-control w-100 mt-2"
-                      placeholder="Localizacion" 
-                      />
-                  </div>
-                  <div class="col-12">
-                    <textarea class="mt-2" name="coments" rows="4" cols="30" v-model="form.comments" ></textarea>    
-                  </div> 
+        <div class="row">
+          <div class="col-12">
+            <div class="form mx-auto mt-3 pb-0">
+              <div class="row">
+                <div class="col-md-6 text-start">
+                  <input
+                    type="text"
+                    v-model="form.name"
+                    class="form-control w-100 mt-2"
+                    :placeholder="$t('contact.form.name')"
+                    required
+                  />
                 </div>
-              <button type="submit" class="btn btn-primary mt-3 mb-1"> Envianos tus datos</button>     
+                <div class="col-md-6 text-end">
+                  <input
+                    type="text"
+                    v-model="form.firstName"
+                    class="form-control w-100 mt-2"
+                    :placeholder="$t('contact.form.firstName')"
+                    required
+                  />
+                </div>
+                <div class="col-12">
+                  <input
+                    type="text"
+                    v-model="form.email"
+                    class="form-control w-100 mt-2"
+                    :placeholder="$t('contact.form.email')"
+                    required
+                  />
+                </div>
+                <div class="col-md-6 text-start">
+                  <input
+                    type="text"
+                    v-model="form.position"
+                    class="form-control w-100 mt-2"
+                    :placeholder="$t('contact.form.position')"
+                  />
+                </div>
+                <div class="col-md-6 text-end">
+                  <input
+                    type="text"
+                    v-model="form.company"
+                    class="form-control w-100 mt-2"
+                    :placeholder="$t('contact.form.company')"
+                    required
+                  />
+                </div>
+                <div class="col-md-6 text-end">
+                  <input
+                    type="text"
+                    v-model="form.phone"
+                    class="form-control w-100 mt-2"
+                    :placeholder="$t('contact.form.phone')"
+                  />
+                </div>
+                <div class="col-md-6 text-start">
+                  <input
+                    type="text"
+                    v-model="form.location"
+                    class="form-control w-100 mt-2"
+                    :placeholder="$t('contact.form.location')"
+                  />
+                </div>
+                <div class="col-12">
+                  <textarea
+                    class="mt-2"
+                    name="comments"
+                    rows="4"
+                    cols="30"
+                    v-model="form.comments"
+                    :placeholder="$t('contact.form.comments')"
+                  ></textarea>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary mt-3 mb-1">
+                {{ $t('contact.form.submit') }}
+              </button>
             </div>
           </div>
-        </div>  
+        </div>
       </form>
     </div>
     <div class="col-12 text-center">
-      <p><small>*Enviando estos datos aceptas nuestra política de privacidad</small></p>
+      <p><small>{{ $t('contact.form.privacyNote') }}</small></p>
     </div>
   </div>
-<!--    <div class="m-0 centered-container row align-items-center">
-      <div class="text-center mx-auto"> 
-        <h1>Mensaje enviado</h1>       
-        <h2>Tu mensaje se ha enviado correctamente.</h2>
-        <p>En breve nos ponremos en contacto contigo.</p>
-        <i class="fa-light fa-envelope fa-2x"></i>
-      </div>
-    </div>-->
 </template>
 <script setup>
 
 import { ref } from 'vue'
-
+const { t } = useI18n();
 const form = ref({
   name: '',
   firstName: '',
@@ -106,7 +114,7 @@ const sendMail = async () => {
 console.log(useMail());
   try {
     const messageText = `
-      Nuevo mensaje recibido desde el formulario de contacto de LesterBot:
+      Nuevo mensaje recibido desde el formulario de contacto de Lebreiro:
       Nombre: ${form.value.firstName} ${form.value.name}
       Email: ${form.value.email}
       Cargo: ${form.value.position}
@@ -117,15 +125,15 @@ console.log(useMail());
       ${form.value.comments}
           `.trim()
     await send({
-      subject: `Nuevo mensaje de ${form.value.name} ${form.value.firstName} [LesterBot]`,
+      subject: `Nuevo mensaje de ${form.value.name} ${form.value.firstName} [Lebreiro]`,
       from:'no-reply@crisalidalabs.com',
       text: messageText,
     })
-    alert("Mensaje enviado")
+    alert(t('contact.send'))
       isSubmitted.value = true  
   } catch (error) {
       console.error(error)
-    alert('Error al enviar el mensaje')
+    alert(t('contact.error'))
   }
 }
 </script>

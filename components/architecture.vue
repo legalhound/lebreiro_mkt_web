@@ -1,39 +1,43 @@
 <template>
-  <div class="slide-six text-center" > 
-    <h2 class="title" id="architecture">Arquitectura y tecnología</h2>
+  <div class="slide-six text-center">
+    <h2 class="title" id="architecture">{{ $t('architecture.title') }}</h2>
     <div class="container">
       <div class="row g-4">
-        <div class="col-md-6 col-lg-4">
+        <div 
+          class="col-md-6 col-lg-4" 
+          v-for="(item, index) in architectureItems" 
+          :key="index"
+        >
           <div class="p-4 fact-card h-100">
-            <div class="fact-icon mb-3"><i class="fas fa-cubes"/></div>
-            <h5 class="fact-header">Modularidad y escabilidad</h5>
-            <p class="fact-text">
-              La modularidad de la plataforma permite adaptarse a las necesidades específicas de cada empresa, ya sea pequeña o grande.
-            </p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="p-4 fact-card h-100">
-            <div class="fact-icon mb-3"><i class="fas fa-plug"/></div>
-            <h5 class="fact-header">Integración a travé de APIs</h5>
-            <p class="fact-text">
-              Las APIs facilitan la conexión con diversas herramientas como CRMs y ERPs, optimizando flujos de trabajo y aumentando la eficiencia.
-            </p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="p-4 fact-card h-100">
-            <div class="fact-icon mb-3"><i class="fas fa-shield-halved"/></div>
-            <h5 class="fact-header">Seguridad en el acceso</h5>
-            <p class="fact-text">
-              El acceso seguro con autenticación multifactor garantiza que solo usuarios autorizados puedan acceder a la información sensible.
-            </p>
+            <div class="fact-icon mb-3" v-html="item.icon"></div>
+            <h5 class="fact-header">{{ $t(item.title) }}</h5>
+            <p class="fact-text">{{ $t(item.text) }}</p>
           </div>
         </div>
       </div>
     </div>
   </div>
 </template>
+
+<script setup>
+const architectureItems = [
+  {
+    icon: '<i class="fas fa-cubes"></i>',
+    title: 'architecture.items.modularity.title',
+    text: 'architecture.items.modularity.text',
+  },
+  {
+    icon: '<i class="fas fa-plug"></i>',
+    title: 'architecture.items.integration.title',
+    text: 'architecture.items.integration.text',
+  },
+  {
+    icon: '<i class="fas fa-shield-halved"></i>',
+    title: 'architecture.items.security.title',
+    text: 'architecture.items.security.text',
+  },
+]
+</script>
 <style scoped>
 .slide-six{
   background-color: #e5e5e5; 
